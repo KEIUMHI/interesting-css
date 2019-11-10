@@ -1,5 +1,7 @@
 <template>
    <div class="guide-ctn">
+     <router-link to="/bubbly">bubbly</router-link>
+     <router-view></router-view>
    </div>
 </template>
 
