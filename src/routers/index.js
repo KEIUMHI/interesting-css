@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const Bubbly = () => import('@/components/bubbly')
+const Title = () => import('@/components/title')
 
 Vue.use(Router)
 
@@ -11,5 +12,9 @@ export default new Router({
     path: '/bubbly',
     name: 'bubbly',
     component: Bubbly
+  }, {
+    path: '/title',
+    name: 'title',
+    component: Title
   }]
 })
