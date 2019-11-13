@@ -2,6 +2,7 @@
    <div class="guide-ctn">
      <router-link to="/bubbly">bubbly</router-link>
      <router-link to="/title">title</router-link>
+     <router-link to="/checkbox">checkbox</router-link>
      <router-view></router-view>
    </div>
 </template>

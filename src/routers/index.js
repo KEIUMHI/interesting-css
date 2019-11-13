@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 const Bubbly = () => import('@/components/bubbly')
 const Title = () => import('@/components/title')
+const Checkbox = () => import('@/components/checkbox')
 
 Vue.use(Router)
 
@@ -16,5 +17,9 @@ export default new Router({
     path: '/title',
     name: 'title',
     component: Title
+  }, {
+    path: '/checkbox',
+    name: 'checkbox',
+    component: Checkbox
   }]
 })
