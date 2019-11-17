@@ -4,7 +4,7 @@ import Router from 'vue-router'
 const Bubbly = () => import('@/components/bubbly')
 const Title = () => import('@/components/title')
 const Checkbox = () => import('@/components/checkbox')
-
+const Taiji = () => import('@/components/taiji')
 Vue.use(Router)
 
 export default new Router({
@@ -21,5 +21,9 @@ export default new Router({
     path: '/checkbox',
     name: 'checkbox',
     component: Checkbox
+  }, {
+    path: '/taiji',
+    name: 'taiji',
+    component: Taiji
   }]
 })
