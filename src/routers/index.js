@@ -5,6 +5,7 @@ const Bubbly = () => import('@/components/bubbly')
 const Title = () => import('@/components/title')
 const Checkbox = () => import('@/components/checkbox')
 const Taiji = () => import('@/components/taiji')
+const Radio = () => import('@/components/radio')
 Vue.use(Router)
 
 export default new Router({
@@ -25,5 +26,9 @@ export default new Router({
     path: '/taiji',
     name: 'taiji',
     component: Taiji
+  }, {
+    path: '/radio',
+    name: 'radio',
+    component: Radio
   }]
 })
