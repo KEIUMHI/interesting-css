@@ -7,6 +7,7 @@ const Checkbox = () => import('@/components/checkbox')
 const Taiji = () => import('@/components/taiji')
 const Radio = () => import('@/components/radio')
 const ColorChange = () => import('@/components/color-change')
+const Pie = () => import('@/components/pie')
 Vue.use(Router)
 
 export default new Router({
@@ -35,5 +36,9 @@ export default new Router({
     path: '/color-change',
     name: 'color-change',
     component: ColorChange
+  }, {
+    path: '/pie',
+    name: 'pie',
+    component: Pie
   }]
 })

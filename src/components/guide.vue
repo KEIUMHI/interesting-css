@@ -22,7 +22,8 @@
           'checkbox',
           'taiji',
           'radio',
-          'color-change'
+          'color-change',
+          'pie'
         ]
       }
     },
