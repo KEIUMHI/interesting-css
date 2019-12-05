@@ -23,7 +23,8 @@
           'taiji',
           'radio',
           'color-change',
-          'pie'
+          'pie',
+          'underline-lr'
         ]
       }
     },

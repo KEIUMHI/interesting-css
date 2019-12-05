@@ -8,6 +8,7 @@ const Taiji = () => import('@/components/taiji')
 const Radio = () => import('@/components/radio')
 const ColorChange = () => import('@/components/color-change')
 const Pie = () => import('@/components/pie')
+const UnderlineLR = () => import('@/components/underline-lr')
 Vue.use(Router)
 
 export default new Router({
@@ -40,5 +41,9 @@ export default new Router({
     path: '/pie',
     name: 'pie',
     component: Pie
+  }, {
+    path: '/underline-lr',
+    name: 'underline-lr',
+    component: UnderlineLR
   }]
 })
